@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
          
 
           <ul class="btn__list-nav">
-              <li><a href="login.html" class="btn-login">Вхід</a></li> 
+              <li><a href="html/login.html" class="btn-login">Вхід</a></li> 
           </ul> </div>
 
       </div> `;
