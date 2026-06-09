@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookDragon</title>
+    
+    <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
+    <!--Иконки-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon/favicon-16x16.png">
+    <link rel="mask-icon" href="../img/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+     <!--Файлы стилей-->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/order-control.css">
+    <link rel="stylesheet" href="../css/order-cart.css">
+    <link rel="stylesheet" href="../css/profile.css">
+     <script src="../js/elements.js" defer></script>
+</head>
+<body>
+    <!--Шапка сайта-->
+    <div id="header"></div>
+    <!--Личный кабинет -->
+<main>
+    <div class="container profile__container">
+        <div class="profile__user-inf">
+            <div class="profile__user-name">Мінато Намікадзе</div>
+            <div class="profile__user-wrap">
+                <div class="profile__user-email">yellowlight@konoha_mail.com</div>
+                <div class="profile__user-id">ID: <span class="user_id">4191357</span></div>
+            </div>
+        </div>
+        <div class="profile__order">
+            <div class="profile__order-container-title">Мої замовлення</div>
+            <div class="control__sort">
+                <div class="control__sort-title">За датою</div>
+                <div class="control__sort-buttons"><button class="control__sort-btn">&#9650;</button><button class="control__sort-btn">&#9660;</button></div>
+            </div>
+            <div class="profile__orders">
+                <div class="profile__order-cart"><!--Карточка заказа-->
+                    <div class="order-cart__title">ID 1276823</div>
+                    <ul class="order-cart__list">
+                        <li class="order-cart__item"> <!--Состав заказа-->
+                            <img class="order-cart__image" src="../img/books/book_1.jpg" alt="Посібник зі знищення вампірів">
+    
+                            <div class="order-cart__product">
+                                <h3 class="order-cart__product-title">Посібник зі знищення вампірів</h3> <!--Название тайтла-->
+    
+                                <p class="order-cart__product-author">Ґрейді Гендрікс</p> <!--Автор-->
+                            </div>
+                            <div class="order-cart__wrapper">
+                                <div class="order-cart__product-count count">
+                                    <p class="count__amount">1</p> <!--Количество книжек-->
+                                </div>
+                                <p class="order-cart__product-price">300<span class="currency">₴</span></p> <!--Цена-->
+                            </div>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--Подвал-->
+<div id="footer"></div>
+<script src="../js/paid_order.js" defer></script>
+</body>
+</html>
