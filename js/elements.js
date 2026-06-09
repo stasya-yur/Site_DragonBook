@@ -8,15 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
   if (headerContainer) {
       // Пункты меню
       const menuItems = [
-          { title: "Каталог", url: "/index.html" },
-          { title: "Про сайт", url: "/html/about_us.html" },
-          { title: "Найбагатші дракони", url: "/html/richest.html" }
+          { title: "Каталог", url: "index.html" },
+          { title: "Про сайт", url: "html/about_us.html" },
+          { title: "Найбагатші дракони", url: "html/richest.html" }
       ];
 
       const adminItems = [
-          { title: "Додати товар", url: "../html/add-product.html" },
-          { title: "Призначити адміністратора", url: "../html/add-new-admin.html" },
-          { title: "Обробка замовлень", url: "../html/order-control.html" }
+          { title: "Додати товар", url: "html/add-product.html" },
+          { title: "Призначити адміністратора", url: "html/add-new-admin.html" },
+          { title: "Обробка замовлень", url: "html/order-control.html" }
       ];
 
       // Базовая часть хедера (логотип и навигация)
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div id="header-container">
               <div class="container header__container">
                   <div class="header__nav">            
-                      <img class="header__logo" src="../../img/logo.png" alt="logo" width="150" height="150">
+                      <img class="header__logo" src="img/logo.png" alt="logo" width="150" height="150">
                       <ul class="header__list">
       `;
 
