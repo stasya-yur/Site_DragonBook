@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="container">
             <div class="footer__content">
                 <div class="footer__company">
-                    <img class="footer__logo" src="../img/logo.png" alt="logo" width="150" height="150">
+                    <img class="footer__logo" src="img/logo.png" alt="logo" width="150" height="150">
                     <div class="footer__development">
                         <p>© Book Dragon, 2024</p>
                         <p>Design: Anastasia Yuriichuk</p>
