@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (headerContainer) {
       // Пункты меню
       const menuItems = [
-          { title: "Каталог", url: "/html/index.html" },
+          { title: "Каталог", url: "/index.html" },
           { title: "Про сайт", url: "/html/about_us.html" },
           { title: "Найбагатші дракони", url: "/html/richest.html" }
       ];
